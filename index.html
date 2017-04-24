@@ -1,0 +1,57 @@
+<html lang="eng">
+<head>
+	<title>Parasel</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/jquery-migrate.js"></script>
+	<!-- slick install-->
+	<script src="js/slick.min.js"></script>
+	<!-- skrollr install -->
+	<script src="js/skrollr.js"></script>
+</head>
+<body>
+	<div class="slider">
+		<div data-0="background-position:0px 0px;" data-500-start="background-position:0px 200px" class="slider__slide slider__slide--1">
+			<div class="slider__copy">
+				<h1>I am slide 1</h1>
+				<p>Lorem ipsum</p>
+			</div>
+		</div>
+		
+		<div data-0="background-position:0px 0px;" data-500-start="background-position:0px 200px" class="slider__slide slider__slide--2">
+			<div class="slider__copy">
+				<h1>I am slide 2</h1>
+				<p>Lorem ipsum</p>
+			</div>
+		</div>
+		<div data-0="background-position:0px 0px;" data-500-start="background-position:0px 200px" class="slider__slide slider__slide--3">
+			<div class="slider__copy">
+				<h1>I am slide 3</h1>
+				<p>Lorem ipsum</p>
+			</div>
+		</div>
+		
+	</div>
+	<div class="content">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt diam nisl, eu posuere nisi pellentesque quis. In commodo sem non rhoncus lobortis. Sed pulvinar libero lorem. Pellentesque sit amet hendrerit eros. Aenean id metus a justo vehicula mollis ac id tellus. Vivamus in lobortis diam. In hac habitasse platea dictumst. Quisque venenatis velit et leo fermentum molestie. Vestibulum nec urna facilisis, dictum odio ut, tincidunt purus. Aliquam a tellus metus.</p>
+
+		<p>Ut mauris est, rutrum quis dapibus vel, maximus vitae mauris. In a venenatis nibh, sed ornare lacus. Nunc fermentum mi turpis, ac consequat nisi pellentesque at. Curabitur vitae elit sed lectus vehicula scelerisque sit amet ut sapien. Cras magna purus, sollicitudin sit amet felis in, facilisis scelerisque urna. Fusce tincidunt lorem sem, quis sagittis nunc aliquam ac. Morbi diam ante, vulputate facilisis mi non, gravida hendrerit eros. Pellentesque eget sodales ipsum. Morbi purus velit, vehicula ac fringilla non, venenatis sit amet nisi. Sed lacinia nisi et consequat interdum.</p>
+
+		<p>Praesent est turpis, molestie vel nisl id, pharetra mollis augue. Morbi sit amet vestibulum sem, vitae ultrices ante. Vivamus vulputate, ligula id consectetur vehicula, velit mauris dictum nisi, vitae tincidunt libero quam eget justo. Phasellus lectus turpis, sodales at est nec, suscipit luctus ligula. Donec id pellentesque mi, eu eleifend odio. Nam tincidunt posuere consectetur. Duis sapien urna, vulputate at blandit vel, euismod sed turpis. Mauris ligula erat, congue quis accumsan vitae, bibendum ac est. Fusce fringilla nisl leo, in dictum risus tincidunt et. Nunc consectetur rutrum ante, et porttitor nulla laoreet at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit est nec venenatis aliquet. Phasellus faucibus ipsum nunc, eget euismod magna finibus non. Mauris euismod pellentesque rutrum. Nullam vel nibh eget eros faucibus ultricies non vitae nisl. Vivamus consequat quam velit.</p>
+
+		<p>Sed dui nunc, pellentesque sed erat vel, imperdiet venenatis odio. Nam feugiat venenatis justo vitae efficitur. Suspendisse porta vestibulum porttitor. Morbi viverra tincidunt nisl, eget fringilla metus malesuada id. Sed porta, libero non gravida suscipit, sapien sem scelerisque magna, a varius erat libero auctor erat. Fusce quis velit arcu. Proin tristique nisi a magna placerat, eget elementum dui ullamcorper. Mauris semper luctus dui, id varius velit commodo at. Etiam eget tincidunt dolor. Ut lorem elit, lacinia eu eros in, eleifend viverra enim. Nunc nec tincidunt sapien, vitae feugiat nibh. Curabitur egestas ligula id magna vulputate vulputate. Aliquam malesuada vel ante at ultrices. Cras interdum, magna nec pulvinar iaculis, erat neque consequat leo, vitae posuere sem nibh et nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus a pellentesque est.</p>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$(".slider").slick({
+				arrows: false
+			});
+			
+				// Init Skrollr
+				skrollr.init({
+				});
+			
+		});
+	</script>
+</body>
+</html>

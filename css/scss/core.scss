@@ -1,0 +1,56 @@
+@font-face {
+    font-family: main-font;
+    src: url(fonts/norwester.otf);
+}
+@font-face {
+    font-family: body-font;
+    src: url(fonts/Lato-Regular.ttf);
+}
+*{
+	box-sizing:border-box;
+}
+
+html, body{
+	margin:0;
+	max-width: 1400px;
+}
+h1,h2,h3{
+	font-family: main-font;
+	font-weight:normal;
+}
+p, span, a{
+	font-family: body-font;
+	line-height:1.8;
+}
+
+.slider{
+	&__slide{
+		position:relative;
+		padding:50px;
+		height:500px;
+		background-size:cover;
+		width:100%;
+		&.slick-slide{
+			height:auto;
+		}
+		&--1{
+			background-image: url(../img/bg-1.jpg);
+		}
+		&--2{
+			background-image: url(../img/bg-2.jpg);
+		}
+		&--3{
+			background-image: url(../img/bg-3.jpg);
+		}
+	}
+	&__copy{
+		background: rgba(0,0,0,0.7);
+		color:#FFF;
+		padding:30px;
+		width:30%;
+	}
+}
+.content{
+	max-width: 1024px;
+	margin: 0 auto;
+}
